@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Form</title>
+</head>
+<body>
+    <h1>Order Details</h1>
+    <form>
+        <label for="customerName">Name:</label>
+        <input type="text" id="customerName" name="customerName" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br><br>
+        
+        <label for="foodChoice">Food Choice:</label>
+        <select id="foodChoice" name="foodChoice">
+            <option value="burger">Burger</option>
+            <option value="pizza">Pizza</option>
+            <option value="biryani">biryani</option>
+            <option value="Chicken-65">Chicken-65</option>
+            <option value="pasta">pasta</option>
+            <option value="french-fries">french-fries</option>
+            <option value="Momos">Momos</option>
+            <option value="veg biryani">Veg biryani</option>
+            <option value="dessert">dessert</option>
+            <option value="panner roti">panner roti</option>
+        </select><br><br>
+        
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+        
+        <label for="specialRequests">Special Requests:</label>
+        <textarea id="specialRequests" name="specialRequests" rows="4"></textarea><br><br>
+        
+        <button type="submit">Submit Order</button>
+    </form>
+</body>
+</html>
